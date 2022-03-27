@@ -1,8 +1,0 @@
-<div> 
-    <br> <br> 
-   <form #f="ngForm" ngSubmit="addtask(f.valid)">
-  <b>Title:</b>  <input type="text" name="title" required [(ngModel)]="tilt" > <br> <br> 
-  <button style="margin-left: 80px;" (click)="cancel()">Cancel</button>
-   <button type="submit" [disabled]="!f.valid" style="margin-left: 20px;" (click)="addtask()">Add</button>
-  </form>
-</div>
