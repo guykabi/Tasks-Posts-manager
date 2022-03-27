@@ -1,0 +1,73 @@
+
+     .myspani{
+        border: 1px solid gray;
+         background-color: rgba(153, 142, 142, 0.534);
+        border-radius: 5%; 
+         margin-left: -90px;  
+         padding-left: 4px; padding-right: 4px; 
+         padding-top: 4px; padding-bottom: 4px;
+     } 
+
+     .otherdata{
+        border: solid 2px black;
+        border-radius: 10%;
+        border-width: 0px;
+         margin-top: 15px;
+          width: 280px;
+           padding-top: 15px; 
+           margin: auto; 
+           background-color: rgba(153, 142, 142, 0.534);
+     } 
+
+     .userdiv{
+        width: 440px; 
+        max-height: 320px; 
+        border-radius: 18%; 
+        margin-left: 160px; 
+        transition: 0.6s;   
+        padding-top: 10px; padding-bottom: 10px;
+        padding-left: 5px; padding-right: 5px; 
+       background-color: honeydew;
+      
+     } 
+     .userdiv:hover{
+        border-radius: 35px;
+     } 
+     .userbtn{
+      margin-top: 10px;
+       margin-bottom: 10px;
+        margin-left: 120px;
+     }  
+     .sidediv{
+        margin-left: 50px;
+        width: 300px;
+     }
+     .submitupdate{
+      background-color: rgba(51, 51, 51, 0.13);
+      border-radius: 8px;
+      border-width: 0;
+      color:    rgba(48, 44, 44, 0.835);
+      cursor: pointer;
+      display: inline-block;
+      font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 10px;
+      list-style: none;
+      padding: 8px 8px;
+      text-align: center;
+      transition: all 200ms;
+      vertical-align: baseline;
+      white-space: nowrap;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation; 
+      margin-top: 5px; 
+     
+  } 
+  
+  .submitupdate:hover{
+      background-color: rgba(214, 206, 214, 0.733);
+  }
+
+     
