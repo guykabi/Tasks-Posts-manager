@@ -1,7 +1,0 @@
-<br> <br> 
-<form #f="ngForm" ngSubmit="addpost(f.valid)">
-<b>Title:</b>  <input type="text" required name="title"  [(ngModel)]="tilt" > <br> <br> 
-<b>Body:</b>  <input type="text"  required name="body"  [(ngModel)]="body" > <br> <br> 
-<button style="margin-left: 80px;"  (click)="cancel()">Cancel</button>
-<button type="submit" style="margin-left: 20px;" [disabled]="!f.valid" (click)="addpost()">Add</button>
-</form>
